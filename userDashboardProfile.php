@@ -16,7 +16,7 @@ if(!isset($_SESSION["username"]))
 	
   		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<link rel="shortcut icon" href="images/favicon.ico">
+
 	
 		<title>Dashboard | tourism_management</title>
     
@@ -49,10 +49,10 @@ if(!isset($_SESSION["username"]))
 		$password = "";
 		$dbname = "projectmeteor";
 		
-		// Creating a connection to projectmeteor MySQL database
+		// Creating a connection to MySQL database
 		$conn = new mysqli($servername, $username, $password, $dbname);
 		
-		// Checking if we've successfully connected to the database
+		// Checking if successfully connected to the database
 		if ($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
 		}
