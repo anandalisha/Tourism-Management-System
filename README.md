@@ -12,11 +12,11 @@ Software: XAMPP Server
 3. Guest users<br>
 
 ## Installation Guide
-1.Clone or download the repo on your local system.<br>
-2.Copy the folder inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/HTML)<br>
-3.Open PHPMyAdmin<br>
-4.Create your own database and import the database file<br>
-5.Open your browser and put inside browser "http://localhost/travel"<br>
+1.Clone or download the repo on your local system.<br><br>
+2.Copy the folder inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/HTML)<br><br>
+3.Open PHPMyAdmin<br><br>
+4.Create your own database and import the database file<br><br>
+5.Open your browser and put inside browser "http://localhost/travel"<br><br>
 
-# For login to admin panel:
+## For login to admin panel:
 Open your browser and put inside browser "http://localhost/travel/Management/adminLogin.php"
